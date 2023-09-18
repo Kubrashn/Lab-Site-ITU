@@ -1,0 +1,562 @@
+html,body{
+    overflow-x: hidden;
+}
+.header {
+    background-image: url("images/images/banner.gif");
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+.header:hover {
+    opacity: 1.0;
+}
+
+.navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+}
+.header:hover {
+    opacity: 1.0;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: end;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 30px;
+    /* İstenilen aralığı burada ayarlayabilirsiniz */
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.itu {
+    font-weight: bolder;
+}
+.header-baslik {
+    margin-top: 180px;
+    color: white;
+}
+.header-baslik h1 , .indexh6{
+    text-shadow: 5px 5px 5px black;
+}
+
+
+
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #38598b;
+}
+
+.vr {
+    border-left: 3px solid white;
+    height: 170px;
+    margin-top: 50px;
+    margin-left: 130px;
+    position: relative;
+    bottom: 20px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.buttons {
+    margin-top: 80px;
+}
+
+.kubuton {
+    position: relative;
+    left: 70px;
+    background-color: #defcf9 !important;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.kubuton1 {
+    position: relative;
+    left: 500px;
+    top: -30px;
+    background-color: #cadefc !important;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.kubuton2 {
+    position: relative;
+    left: 70px;
+    top: -50px;
+    background-color: #c3bef0 !important;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.kubuton3 {
+    position: relative;
+    left: 500px;
+    top: -70px;
+    background-color: #cca8e9 !important;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.kubuton:hover {
+    transform: translateX(-20px);
+    transition: transform 0.4s ease-in-out;
+}
+
+.kubuton1:hover {
+    transform: translateX(20px);
+    transition: transform 0.4s ease-in-out;
+}
+
+.kubuton2:hover {
+    transform: translateX(-20px);
+    transition: transform 0.4s ease-in-out;
+}
+
+.kubuton3:hover {
+    transform: translateX(20px);
+    transition: transform 0.4s ease-in-out;
+}
+
+footer {
+    background-color: #38598b;
+    color: white;
+}
+
+.header-akal {
+    background-image: url(images/images/gallery/img.jpg);
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0.8;
+}
+.header-akal h1{
+    text-shadow: 5px 5px 5px black;
+}
+
+.simge {
+    list-style-type: circle;
+}
+
+.header-research {
+    background-image: url(images/images/gallery/daktilo-pin.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0.7;
+}
+.header-research h1{
+    text-shadow: 7px 7px 7px black;
+}
+
+.header-papers {
+    background-image: url(images/images/gallery/paper1.jpg);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-bottom: 30px;
+    opacity: 0.6;
+}
+.header-papers h1{
+    text-shadow: 5px 5px 5px rgb(63, 61, 61);
+    font-size: 80px;
+}
+
+.header-tayfunh {
+    background-image: url(images/images/gallery/Screenshot\ 2023-07-18\ at\ 13-24-32\ ITU\ ARIS\ LAB-y.png);
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    align-items: center;
+    color: white;
+}
+.header-tayfunh h1{
+    position: relative;
+    top: 14rem;
+    text-shadow: 5px 5px 5px rgb(24, 24, 24);
+}
+
+.tayfunh-ctc {
+    background-color: #a2a8d3;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.header-students {
+    background-image: url(images/images/gallery/IMG_6909-kopya.JPG);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    opacity: 0.7;
+}
+.header-students h1{
+    position: relative;
+    top: 230px;
+    text-shadow: 7px 7px 7px rgb(43, 42, 42);
+    font-size: 75px;
+}
+
+#photo-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 33.33%;
+    /* Üç sütunlu layout için %33.33 genişlik */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.paper-container{
+    padding-right: 200px;
+}
+.paper-container ol li{
+    margin-top: 15px;
+}
+.kaydirma{
+    --bs-gutter-x: none;
+}
+.image{
+    background-color: #f9ecec;
+}
+.bio{
+    background-color: #f0d9da;
+}
+.seis{
+    background-color: #c8d9eb;
+}
+.underwater{
+    background-color: #ecf2f9;
+}
+.sidenav .nav-link{
+    color: rgb(94, 94, 94);
+}
+.sidenav li a:hover{
+    color:rgb(206, 33, 33) ;
+    text-decoration: underline;
+}
+.vr-people {
+    border-left: 3px solid rgb(206, 33, 33);
+    height: 220px;
+    margin-top: 100px;
+    position: relative;
+    bottom: 20px;
+}
+.gallery-body{
+   background-image: url(images/images/gallery/gallery-back1.jpg);
+   background-size: cover;
+   
+}
+.header-gallery{
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+.header-gallery h1{
+    text-shadow: 5px 5px 5px rgb(43, 42, 42);
+    font-size: 75px;
+}
+.siu{
+    text-shadow: 3px 3px 3px rgb(30, 30, 30);
+    
+}
+.paper li a{
+    text-decoration: none;
+    color: black;
+}
+.paper li a:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:1200px){
+    .box img{
+        margin: 2px ;
+        padding: 2rem ;
+    }
+    .pinterns{
+        margin-left: 150px !important;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .indx-img{
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+    .kubuton3{
+        position: relative;
+        left: 370px;
+    }
+    .kubuton1{
+        position: relative;
+        left: 370px;
+    }
+    .buttons{
+        position: relative;
+        left: -40px;
+        width: 100%;
+    }
+    .img-gallery-foto{
+        width: 400px;   
+    }
+    .header-tayfunh , .header-students , .header-research{
+        height: 350px; /* İstediğiniz boyutu belirleyebilirsiniz */
+    }
+    .box img{
+        margin: 2px ;
+        padding: 2rem ;
+    }
+    
+}
+@media screen and (max-width : 980px){
+    footer .vr{
+        display: none;
+    }
+    .projects{
+        margin-top: 50px;
+    }
+    .box img{
+        margin: 2px ;
+        padding: 3rem ;
+    }
+    .pinterns{
+        margin-left: 100px !important;
+    }
+    
+}
+@media screen and (max-width: 945px) {
+    .indx-img{
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+    .kubuton3{
+        position: relative;
+        left: 350px;
+    }
+    .kubuton1{
+        position: relative;
+        left: 350px;
+    }
+    .buttons{
+        position: relative;
+        left: -40px;
+        width: 100%;
+    }
+    .img-seis{
+        width: 300px;
+    }
+    .header-tayfunh , .header-students , .header-research {
+        height: 300px; /* İstediğiniz boyutu belirleyebilirsiniz */
+    }
+    .header-tayfunh h1{
+        position: relative;
+        top: 100px;
+    }
+    
+}
+@media screen and (max-width:775px) {
+    .header-tayfunh h1 , .header-students h1{
+        position: relative;
+        top: 130px;
+        margin-left: 0px !important;
+    }
+    .box {
+        flex-basis: 50%;
+        margin-bottom: 20px;
+    }
+    .pinterns{
+        margin-left: 60px !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .indx-img{
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+    .kubuton3{
+        position: relative;
+        left: 250px;
+    }
+    .kubuton1{
+        position: relative;
+        left: 250px;
+    }
+    .buttons{
+        position: relative;
+        left: -40px;
+        width: 100%;
+    }
+    footer .orta , .sol , .bas{
+        display: flex;
+        justify-content: center;
+    }
+    .img-seis{
+        width: 400px;
+    }
+    .img-gallery-foto{
+        margin-top: 20px;
+    }
+    .header-tayfunh , .header-students, .header-research {
+        height: 250px; /* İstediğiniz boyutu belirleyebilirsiniz */
+    }
+    
+}
+@media screen and (max-width:690px) {
+    .header-tayfunh h1{
+        position: relative;
+        top: 130px;
+        margin-left: 0px !important;
+        font-size: 50px!important;
+    }
+    .sidenav{
+        position: relative;
+        left: 0 !important;
+    }
+}
+
+@media screen and (max-width : 580px) {
+    .paper li a{
+        margin-left: 20px;
+    }
+    .vr-people{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 545px) {
+    .ytb-1{
+        position: relative;
+        right: 60px;
+    }
+    .ytb-2{
+        width: 410px;
+    }
+    .img-under{
+        width: 440px;
+    }
+    .paper {
+        position: relative;
+        left: 40px;
+    }
+    .paper-container{
+        padding-right: 50px;
+    }
+    .header-tayfunh , .header-students , .header-research {
+        height: 200px; /* İstediğiniz boyutu belirleyebilirsiniz */
+    }
+    .sidenav .nav-item{
+        margin-top: 10px !important;
+    }
+    .pinterns{
+        margin-left: 150px !important;
+    }
+    
+}
+@media screen and (max-width:491px) {
+    .header-tayfunh h1{
+        position: relative;
+        top: 130px;
+        margin-left: 0px !important;
+        font-size: 30px!important;
+    }
+    .box {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .pinterns{
+        margin-left: 10px !important;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    footer .bas , .orta , .sol{
+        display: flex;
+        justify-content: center;
+    }
+    .adres{
+        position: relative;
+        left: 50px;
+    }
+    .img-bio{
+        padding: 2rem;
+    }
+    .img-seis{
+        width: 350px;
+    }
+    .img-gallery-foto{
+        width: 370px;
+    }
+    .siu-konusma{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .harita{
+        margin-right: 60px;
+    }
+    .header-tayfunh , .header-students , .header-research{
+        height: 150px; /* İstediğiniz boyutu belirleyebilirsiniz */
+    }
+    .header-tayfunh h1 , .header-students h1{
+        position: relative;
+        top: 100px;
+        margin-left: 0px !important;
+        font-size: 30px!important;
+    }
+}
+.navbar-toggler{
+    background-color: white !important;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 75%;
+    background-color: rgba(0, 0, 0, 0.8); /* Geçişli bir siyah overlay oluşturur */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    display: none; /* Başlangıçta görünmez olacak */
+  }
+  
+.overlay img {
+    max-width: 70%;
+    max-height: 70%;
+    object-fit: contain; /* Büyük resimlerin uygun şekilde sığmasını sağlar */
+}
